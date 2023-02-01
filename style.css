@@ -5,8 +5,8 @@
     flex-direction: row; /* column - row-rreverse - column-reverse*/
     flex-wrap: wrap; /* nowrap - wrap-reverse - define seo item tem quebra de linha ou não*/
     justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
+    align-items: flex-start;
+    align-content: center;
 }
 
 .item {
