@@ -1,0 +1,18 @@
+.container {
+    background-color: #020001;
+    height: 500px;
+    display: flex;
+    flex-direction: row; /* column - row-rreverse - column-reverse*/
+    flex-wrap: wrap; /* nowrap - wrap-reverse - define seo item tem quebra de linha ou não*/
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.item {
+    background-color: #d5d2c8;
+    color: #f6f6e2;
+    padding: 20px;
+    margin: 5px;
+    width: 280px;
+}
