@@ -1,18 +1,22 @@
 .container {
-    background-color: #020001;
-    height: 500px;
+    background-color: #b7b09e;
     display: flex;
-    flex-direction: row; /* column - row-rreverse - column-reverse*/
-    flex-wrap: wrap; /* nowrap - wrap-reverse - define seo item tem quebra de linha ou não*/
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
-    align-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 600px;
 }
 
 .item {
-    background-color: #d5d2c8;
-    color: #f6f6e2;
-    padding: 20px;
+    background-color: #493443;
+    color: white;
+    padding: 30px;
     margin: 5px;
-    width: 280px;
+    width: 200px;
+    height: 40px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
 }
