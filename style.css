@@ -23,7 +23,7 @@ a:hover {
 /* Header */
 
 header {
-    background-color: #8fc9b9;
+    background-color: #a2cca5;
     width: 100%;
     position: absolute;
     top: 0;
@@ -43,7 +43,7 @@ header nav ul {
 }
 
 header li a {
-    color: #191c03;
+    color: #50232e;
 }
 
 header li {
