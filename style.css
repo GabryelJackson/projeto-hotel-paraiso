@@ -14,10 +14,16 @@ a {
     text-decoration: none;
     cursor: pointer;
     opacity: 0.9;
+    transition-duration: 1s;
+    
 }
 
 a:hover {
     opacity: 1;
+    background-color: #69856b;
+    border-radius: 4px;
+    padding: 10px;
+    transition-duration: 1s;
 }
 
 /* Header */
@@ -64,5 +70,46 @@ header li:last-child {
     }
     header img {
         margin-bottom: 15px;
+    }
+}
+
+/* Hero */
+
+.hero {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffcff;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hero .btn {
+    background-color: #fffcff;
+    border-radius: 4px;
+    color: #0ca5b0;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
     }
 }
