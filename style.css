@@ -113,3 +113,63 @@ header li:last-child {
         font-size: 1.5rem;
     }
 }
+
+/* Conheça o hotel*/
+
+.conheca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.conheca h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #455746;
+    text-align: center;
+}
+
+.conheca p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #708f72;
+}
+
+.conheca hr {
+    width: 200px;
+    height: 2px;
+    background-color: #a2cca5;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.conheca .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conheca .grid li {
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.conheca .grid li.small {
+    flex-basis: 40%;
+}
+
+.conheca .grid li.large {
+    flex-basis: 60%;
+}
+
+@media (max-width: 700px) {
+    .conheca .grid li.small, .conheca .grid li.large {
+        flex-basis: 100%;
+    }
+}
