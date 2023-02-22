@@ -173,3 +173,67 @@ header li:last-child {
         flex-basis: 100%;
     }
 }
+
+/* Características*/
+
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #323f33;
+}
+
+.caracteristicas h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.caracteristicas p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.caracteristicas hr {
+    width: 200px;
+    height: 2px;
+    background-color: aliceblue;
+    margin-bottom: 70px;
+    border: none;
+}
+
+.caracteristicas .grid {
+    width: 100%;
+    display: flex;
+}
+
+.caracteristicas .grid li {
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.caracteristicas .grid li i {
+    color: #c2bf29;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+.caracteristicas .grid li h4 {
+    font-size: 1.5rem;
+    color: #c2bf29;
+    margin-bottom: 30px;
+}
+
+.caracteristicas .grid li p {
+    color: aliceblue;
+}
+
+@media (max-width: 850px) {
+    .caracteristicas .grid {
+        flex-direction: column;
+    }
+}
