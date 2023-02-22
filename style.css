@@ -18,12 +18,8 @@ a {
     
 }
 
-a:hover {
-    opacity: 1;
-    background-color: #69856b;
-    border-radius: 4px;
-    padding: 10px;
-    transition-duration: 1s;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Header */
