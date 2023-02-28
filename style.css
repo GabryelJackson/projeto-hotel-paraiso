@@ -327,6 +327,11 @@ footer ul li a {
     font-size: 2rem;
 }
 
+footer ul li a:hover {
+    color: #e4e134;
+    transition: 0.7s;
+}
+
 footer p {
     color: #c2bf29;
     text-align: center;
