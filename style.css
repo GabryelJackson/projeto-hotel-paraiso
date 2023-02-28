@@ -298,3 +298,36 @@ header li:last-child {
         margin-bottom: 15px;
     }
 }
+
+/* Footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #455746;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 0px;
+}
+
+footer ul li a {
+    color: #c2bf29;
+    font-size: 2rem;
+}
+
+footer p {
+    color: #c2bf29;
+    text-align: center;
+}
